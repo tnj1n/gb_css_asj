@@ -1,0 +1,46 @@
+/* <!-- 
+    c, e는 중앙(수평, 수직) 정렬 o
+    각 c와 e는 가로로 배치o
+    e는 위, 아래 안쪽 여백 10px씩 o
+    f는 중앙에 위치(수직)o
+    h는 오른쪽 아래 위치
+--> */
+#a{
+    background-color: rgb(152, 171, 171);
+    width: 500px;
+    height: 500px;
+}
+#c, #e{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(219, 139, 139);
+    text-align: center;
+    background-color: rgb(73, 61, 61);
+}
+#e{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(35, 93, 132);
+}
+
+#f{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 88, 217);
+}
+
+#h{
+    margin-left: 0 auto;    
+    background-color: dimgray;
+}
+
+#g{
+    
+    padding-top: 300px;
+}
