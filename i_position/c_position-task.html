@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>position 실습</title>
+        <style>
+            #image {
+                margin: 0 auto;
+                width: 800px;
+                height: 600px;
+                background-image: url("https://kofice.or.kr/dext5editordata/2017/06/20170628_174515249_17867.jpg");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                position: relative;
+            }
+            #i1 {
+                position: relative;
+                width: 20%;
+                height: 25%;
+                object-fit: cover;
+                right: -359.5px;
+                bottom: -76px;
+            }
+
+            #i2 {
+                position: absolute;
+                width: 20%;
+                height: 25%;
+                object-fit: cover;
+                right: 279px;
+                bottom: 384px;
+            }
+            #i2 img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            #text {
+                text-align: center;
+            }
+            #i3 img {
+                position: relative;
+                width: 32%;
+                height: 32%;
+                right: -336px;
+                bottom: -76px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="image">
+            <div id="i1">
+                <img
+                    src="https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png"
+                />
+            </div>
+            <div id="i2">
+                <img src="file.png" />
+            </div>
+            <div id="i3"><img src="dht.png" /></div>
+        </div>
+        <h1 id="text">당신의 동석에게 투표하세요!</h1>
+    </body>
+</html>

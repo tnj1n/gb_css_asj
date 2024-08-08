@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>flex 실습</title>
+        <style>
+            #container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div.image-wrap {
+                display: flex;
+                width: 420px;
+                height: 305px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="image-wrap">
+                <img src="images/img1.jpg" />
+            </div>
+            <div class="image-wrap">
+                <img src="images/img2.jpg" />
+            </div>
+            <div class="image-wrap">
+                <img src="images/img3.jpg" />
+            </div>
+        </div>
+    </body>
+</html>

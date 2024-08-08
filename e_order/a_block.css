@@ -1,46 +1,47 @@
 body {
-    font-size: 35px;
+    font-size: 35px; /* 본문 폰트 크기를 35픽셀로 설정 */
 }
 
 #horizon {
-    border: 2px dashed brown;
-    width: 500px;
-    text-align: center;
-    margin: 0 auto;
+    border: 2px dashed brown; /* 갈색 점선 테두리를 2픽셀 두께로 설정 */
+    width: 500px; /* 너비를 500픽셀로 설정 */
+    text-align: center; /* 텍스트를 중앙 정렬 */
+    margin: 0 auto; /* 수평 가운데 정렬 (양쪽 여백을 자동으로 설정) */
     /* margin-left: auto;
     margin-right: auto; */
+    /* 위의 margin: 0 auto;와 동일한 역할을 하는 코드 */
 }
 
 #wrap {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
-    height: 300px;
-    border: 4px dotted blueviolet;
+    margin: 0 auto; /* 수평 가운데 정렬 (양쪽 여백을 자동으로 설정) */
+    display: flex; /* 플렉스 박스 레이아웃 사용 */
+    justify-content: center; /* 주축(가로축) 방향으로 중앙 정렬 */
+    align-items: center; /* 교차축(세로축) 방향으로 중앙 정렬 */
+    flex-direction: column; /* 주축을 세로 방향으로 설정 */
+    width: 500px; /* 너비를 500픽셀로 설정 */
+    height: 300px; /* 높이를 300픽셀로 설정 */
+    border: 4px dotted blueviolet; /* 블루바이올렛 점선 테두리를 4픽셀 두께로 설정 */
 }
 
 #container, #article {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 100px;
-    background-color: crimson;
+    display: flex; /* 플렉스 박스 레이아웃 사용 */
+    flex-direction: column; /* 주축을 세로 방향으로 설정 */
+    width: 100px; /* 너비를 100픽셀로 설정 */
+    height: 100px; /* 높이를 100픽셀로 설정 */
+    background-color: crimson; /* 배경 색상을 크림슨으로 설정 */
 }
 
 #container {
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-end; /* 교차축(세로축) 방향으로 끝쪽 정렬 */
+    justify-content: flex-end; /* 주축(가로축) 방향으로 끝쪽 정렬 */
 }
 
 #article {
-    justify-content: flex-end;
+    justify-content: flex-end; /* 주축(가로축) 방향으로 끝쪽 정렬 */
 }
 
 .element {
-    width: 30px;
-    height: 30px;
-    background-color: dimgray;
+    width: 30px; /* 너비를 30픽셀로 설정 */
+    height: 30px; /* 높이를 30픽셀로 설정 */
+    background-color: dimgray; /* 배경 색상을 딤그레이로 설정 */
 }
